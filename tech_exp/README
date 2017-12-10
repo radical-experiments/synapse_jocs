@@ -1,0 +1,24 @@
+This directory holds the development of Compute Kernels. A Python script calls a C function during its execution.
+This code contains measurements that measure the overhead introduce when using Python/C vs using C alone.
+The code will be incoporated into radical.synapse, which uses Python and C.
+
+Measurements:
+base_O2 - Base code with -g -O2 level compiler optimizations
+    - gcc -g -O2 -o test_matmult_o2.o test_matmult.c
+
+base_O0 - Base code with -g -O0 level compiler optimizations
+    - gcc -g -O0 -o test_matmult_o0.o test_matmult.c
+
+
+When using Python/C, we have to build the package. The package is built using setup.py
+    - python setup.py build_ext -i
+
+The following assumes the use of volatile keyword for any variable involved in the matrix multiplication
+with_arg_no_opt - Python code with extra_compile_args=['-g -O0'], with no __attribute__((optimize("-O0")))
+
+no_arg_no_opt - Python code without extra_compile_args,  with no __attribute__((optimize("-O0")))
+
+no_arg_with_opt - Python code with __attribute__((optimize("-O0"))), with no extra compiler args
+
+with_arg_with_opt - Python code with __attribute__((optimize("-O0"))), with extra_compiler args
+

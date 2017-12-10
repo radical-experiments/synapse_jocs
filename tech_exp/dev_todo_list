@@ -1,0 +1,26 @@
+Python-C development
+
+I observed that there are variations in the number of cycles/instructions 
+executed. I think this is because of how the C code is compiled
+1) Execute matmult with and without using Python to measure overhead and 
+    control of compiler optimizations
+    a) Base code with -g -O2 level compiler optimizations
+    b) Base code with -g -O0 level compiler optimizations
+    c) Python code with extra_compile_args=['-g -O0']
+    d) Python code without extra_compile_args
+    e) Python code with __attribute__((optimize("-O0")))
+    f) Python code without __attribute__((optimize("-O0")))
+
+Synapse developement:
+
+1) Unit testing for construction of Synapse Compute Atom
+2) Unit testing of different compute kernels to emulate atoms
+3) E2E testing of installation and emulation of kernel on different machines
+4) Measurement of the overhead of emulating different Compute samples
+    a) Varying the size of the matrices
+    b) Varying the number of multiplications
+
+
+When compiling the standalone mat_mult code with the same C compiler flags 
+specified in the Py_CFLAGS specified by sysconfig, the timings seem to workout 
+alright. However, it precludes my analysis
