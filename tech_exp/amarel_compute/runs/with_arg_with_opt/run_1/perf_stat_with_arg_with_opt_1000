@@ -1,0 +1,140 @@
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       4269.071428      task-clock (msec)         #    0.923 CPUs utilized          
+               742      context-switches          #    0.174 K/sec                  
+                 2      cpu-migrations            #    0.000 K/sec                  
+             5,413      page-faults               #    0.001 M/sec                  
+    14,030,734,271      cycles                    #    3.287 GHz                    
+    43,110,149,057      instructions              #    3.07  insn per cycle         
+     1,023,635,670      branches                  #  239.779 M/sec                  
+         1,462,688      branch-misses             #    0.14% of all branches        
+
+       4.623246868 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       4243.147371      task-clock (msec)         #    0.999 CPUs utilized          
+               510      context-switches          #    0.120 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             4,391      page-faults               #    0.001 M/sec                  
+    13,968,882,301      cycles                    #    3.292 GHz                    
+    43,097,798,665      instructions              #    3.09  insn per cycle         
+     1,021,157,110      branches                  #  240.660 M/sec                  
+         1,372,969      branch-misses             #    0.13% of all branches        
+
+       4.247430024 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       4278.624948      task-clock (msec)         #    0.998 CPUs utilized          
+               519      context-switches          #    0.121 K/sec                  
+                 4      cpu-migrations            #    0.001 K/sec                  
+             4,390      page-faults               #    0.001 M/sec                  
+    14,042,069,337      cycles                    #    3.282 GHz                    
+    43,107,590,912      instructions              #    3.07  insn per cycle         
+     1,023,774,732      branches                  #  239.277 M/sec                  
+         1,388,114      branch-misses             #    0.14% of all branches        
+
+       4.285726023 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       4241.657741      task-clock (msec)         #    0.999 CPUs utilized          
+               512      context-switches          #    0.121 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             4,391      page-faults               #    0.001 M/sec                  
+    13,963,933,033      cycles                    #    3.292 GHz                    
+    43,097,912,492      instructions              #    3.09  insn per cycle         
+     1,021,190,861      branches                  #  240.753 M/sec                  
+         1,367,280      branch-misses             #    0.13% of all branches        
+
+       4.247348828 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       4238.400892      task-clock (msec)         #    0.998 CPUs utilized          
+               511      context-switches          #    0.121 K/sec                  
+                 2      cpu-migrations            #    0.000 K/sec                  
+             4,390      page-faults               #    0.001 M/sec                  
+    13,957,257,123      cycles                    #    3.293 GHz                    
+    43,096,162,047      instructions              #    3.09  insn per cycle         
+     1,020,567,387      branches                  #  240.791 M/sec                  
+         1,364,686      branch-misses             #    0.13% of all branches        
+
+       4.244875545 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       4241.251560      task-clock (msec)         #    0.999 CPUs utilized          
+               512      context-switches          #    0.121 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             4,391      page-faults               #    0.001 M/sec                  
+    13,959,924,179      cycles                    #    3.291 GHz                    
+    43,096,545,608      instructions              #    3.09  insn per cycle         
+     1,020,709,119      branches                  #  240.662 M/sec                  
+         1,370,822      branch-misses             #    0.13% of all branches        
+
+       4.246575822 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       4239.717492      task-clock (msec)         #    0.999 CPUs utilized          
+               510      context-switches          #    0.120 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             4,391      page-faults               #    0.001 M/sec                  
+    13,960,213,811      cycles                    #    3.293 GHz                    
+    43,096,095,783      instructions              #    3.09  insn per cycle         
+     1,020,537,049      branches                  #  240.709 M/sec                  
+         1,365,113      branch-misses             #    0.13% of all branches        
+
+       4.244505405 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       3988.213505      task-clock (msec)         #    0.999 CPUs utilized          
+               486      context-switches          #    0.122 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             4,898      page-faults               #    0.001 M/sec                  
+    13,130,754,450      cycles                    #    3.292 GHz                    
+    43,094,638,284      instructions              #    3.28  insn per cycle         
+     1,020,135,661      branches                  #  255.788 M/sec                  
+         1,373,190      branch-misses             #    0.13% of all branches        
+
+       3.993224464 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       4239.907234      task-clock (msec)         #    0.999 CPUs utilized          
+               513      context-switches          #    0.121 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             5,413      page-faults               #    0.001 M/sec                  
+    13,963,123,831      cycles                    #    3.293 GHz                    
+    43,097,502,668      instructions              #    3.09  insn per cycle         
+     1,020,684,254      branches                  #  240.733 M/sec                  
+         1,374,257      branch-misses             #    0.13% of all branches        
+
+       4.245387757 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 1000':
+
+       4239.349669      task-clock (msec)         #    0.999 CPUs utilized          
+               512      context-switches          #    0.121 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             4,389      page-faults               #    0.001 M/sec                  
+    13,957,195,431      cycles                    #    3.292 GHz                    
+    43,095,906,722      instructions              #    3.09  insn per cycle         
+     1,020,470,957      branches                  #  240.714 M/sec                  
+         1,369,436      branch-misses             #    0.13% of all branches        
+
+       4.244463501 seconds time elapsed
+

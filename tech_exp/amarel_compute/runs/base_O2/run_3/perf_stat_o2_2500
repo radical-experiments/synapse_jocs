@@ -1,0 +1,140 @@
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16100.417721      task-clock (msec)         #    0.999 CPUs utilized          
+             1,616      context-switches          #    0.100 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,074      page-faults               #    0.129 K/sec                  
+    52,986,697,113      cycles                    #    3.291 GHz                    
+   125,132,424,992      instructions              #    2.36  insn per cycle         
+    15,652,840,711      branches                  #  972.201 M/sec                  
+         6,362,856      branch-misses             #    0.04% of all branches        
+
+      16.110228885 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16088.878588      task-clock (msec)         #    0.999 CPUs utilized          
+             1,616      context-switches          #    0.100 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,586      page-faults               #    0.161 K/sec                  
+    52,961,411,501      cycles                    #    3.292 GHz                    
+   125,125,579,429      instructions              #    2.36  insn per cycle         
+    15,650,303,204      branches                  #  972.740 M/sec                  
+         6,365,446      branch-misses             #    0.04% of all branches        
+
+      16.098664580 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16128.162434      task-clock (msec)         #    0.999 CPUs utilized          
+             1,619      context-switches          #    0.100 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,075      page-faults               #    0.129 K/sec                  
+    52,978,366,480      cycles                    #    3.285 GHz                    
+   125,132,703,995      instructions              #    2.36  insn per cycle         
+    15,652,997,143      branches                  #  970.538 M/sec                  
+         6,362,704      branch-misses             #    0.04% of all branches        
+
+      16.137715422 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16111.327243      task-clock (msec)         #    0.999 CPUs utilized          
+             1,641      context-switches          #    0.102 K/sec                  
+                13      cpu-migrations            #    0.001 K/sec                  
+             2,074      page-faults               #    0.129 K/sec                  
+    53,006,863,591      cycles                    #    3.290 GHz                    
+   125,109,556,035      instructions              #    2.36  insn per cycle         
+    15,644,132,933      branches                  #  971.002 M/sec                  
+         6,345,984      branch-misses             #    0.04% of all branches        
+
+      16.122119853 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16082.744087      task-clock (msec)         #    0.999 CPUs utilized          
+             1,614      context-switches          #    0.100 K/sec                  
+                10      cpu-migrations            #    0.001 K/sec                  
+             2,075      page-faults               #    0.129 K/sec                  
+    52,949,735,809      cycles                    #    3.292 GHz                    
+   125,125,074,681      instructions              #    2.36  insn per cycle         
+    15,650,183,072      branches                  #  973.104 M/sec                  
+         6,335,822      branch-misses             #    0.04% of all branches        
+
+      16.092215471 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16078.612646      task-clock (msec)         #    0.999 CPUs utilized          
+             1,616      context-switches          #    0.101 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,586      page-faults               #    0.161 K/sec                  
+    52,956,029,963      cycles                    #    3.294 GHz                    
+   125,129,728,764      instructions              #    2.36  insn per cycle         
+    15,651,789,055      branches                  #  973.454 M/sec                  
+         6,347,105      branch-misses             #    0.04% of all branches        
+
+      16.088071811 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16093.359880      task-clock (msec)         #    0.999 CPUs utilized          
+             1,615      context-switches          #    0.100 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,075      page-faults               #    0.129 K/sec                  
+    52,980,022,234      cycles                    #    3.292 GHz                    
+   125,127,385,647      instructions              #    2.36  insn per cycle         
+    15,651,045,306      branches                  #  972.516 M/sec                  
+         6,368,239      branch-misses             #    0.04% of all branches        
+
+      16.103043089 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16070.223637      task-clock (msec)         #    0.999 CPUs utilized          
+             1,615      context-switches          #    0.100 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,075      page-faults               #    0.129 K/sec                  
+    52,938,190,480      cycles                    #    3.294 GHz                    
+   125,121,800,255      instructions              #    2.36  insn per cycle         
+    15,649,015,725      branches                  #  973.790 M/sec                  
+         6,357,167      branch-misses             #    0.04% of all branches        
+
+      16.079693224 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16076.464816      task-clock (msec)         #    0.999 CPUs utilized          
+             1,614      context-switches          #    0.100 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,075      page-faults               #    0.129 K/sec                  
+    52,952,155,776      cycles                    #    3.294 GHz                    
+   125,123,417,656      instructions              #    2.36  insn per cycle         
+    15,649,584,393      branches                  #  973.447 M/sec                  
+         6,372,875      branch-misses             #    0.04% of all branches        
+
+      16.085916401 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o2.o 2500':
+
+      16073.079273      task-clock (msec)         #    0.999 CPUs utilized          
+             1,616      context-switches          #    0.101 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             2,075      page-faults               #    0.129 K/sec                  
+    52,945,485,357      cycles                    #    3.294 GHz                    
+   125,123,520,748      instructions              #    2.36  insn per cycle         
+    15,649,618,749      branches                  #  973.654 M/sec                  
+         6,350,423      branch-misses             #    0.04% of all branches        
+
+      16.082571184 seconds time elapsed
+
