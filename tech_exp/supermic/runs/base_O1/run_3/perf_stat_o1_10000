@@ -1,0 +1,170 @@
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    3189063.764536      task-clock (msec)         #    1.001 CPUs utilized          
+             3,218      context-switches          #    0.001 K/sec                  
+                51      cpu-migrations            #    0.000 K/sec                  
+               857      page-faults               #    0.000 K/sec                  
+11,448,299,769,467      cycles                    #    3.590 GHz                    
+ 8,443,391,173,224      stalled-cycles-frontend   #   73.75% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,010,738,070,536      instructions              #    0.70  insns per cycle        
+                                                  #    1.05  stalled cycles per insn
+ 1,001,971,285,698      branches                  #  314.190 M/sec                  
+       105,152,007      branch-misses             #    0.01% of all branches        
+
+    3186.771084065 seconds time elapsed
+
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    3146353.991639      task-clock (msec)         #    1.001 CPUs utilized          
+             3,728      context-switches          #    0.001 K/sec                  
+               267      cpu-migrations            #    0.000 K/sec                  
+             1,729      page-faults               #    0.001 K/sec                  
+11,302,251,854,092      cycles                    #    3.592 GHz                    
+ 8,297,432,952,303      stalled-cycles-frontend   #   73.41% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,010,528,096,197      instructions              #    0.71  insns per cycle        
+                                                  #    1.04  stalled cycles per insn
+ 1,001,932,400,286      branches                  #  318.442 M/sec                  
+       104,162,164      branch-misses             #    0.01% of all branches        
+
+    3143.957710868 seconds time elapsed
+
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    2956700.471535      task-clock (msec)         #    1.001 CPUs utilized          
+             3,941      context-switches          #    0.001 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+             1,460      page-faults               #    0.000 K/sec                  
+10,608,919,937,680      cycles                    #    3.588 GHz                    
+ 7,604,552,941,118      stalled-cycles-frontend   #   71.68% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,009,799,668,211      instructions              #    0.76  insns per cycle        
+                                                  #    0.95  stalled cycles per insn
+ 1,001,800,864,439      branches                  #  338.824 M/sec                  
+       103,174,058      branch-misses             #    0.01% of all branches        
+
+    2954.445819341 seconds time elapsed
+
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    2957760.399104      task-clock (msec)         #    1.001 CPUs utilized          
+             3,947      context-switches          #    0.001 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             1,799      page-faults               #    0.001 K/sec                  
+10,612,795,290,444      cycles                    #    3.588 GHz                    
+ 7,608,386,498,509      stalled-cycles-frontend   #   71.69% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,009,789,341,031      instructions              #    0.75  insns per cycle        
+                                                  #    0.95  stalled cycles per insn
+ 1,001,798,791,108      branches                  #  338.702 M/sec                  
+       103,444,241      branch-misses             #    0.01% of all branches        
+
+    2955.505194711 seconds time elapsed
+
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    2957512.049335      task-clock (msec)         #    1.001 CPUs utilized          
+             2,969      context-switches          #    0.001 K/sec                  
+                 9      cpu-migrations            #    0.000 K/sec                  
+               865      page-faults               #    0.000 K/sec                  
+10,612,592,492,014      cycles                    #    3.588 GHz                    
+ 7,608,212,344,510      stalled-cycles-frontend   #   71.69% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,009,750,654,876      instructions              #    0.75  insns per cycle        
+                                                  #    0.95  stalled cycles per insn
+ 1,001,791,678,951      branches                  #  338.728 M/sec                  
+       103,401,716      branch-misses             #    0.01% of all branches        
+
+    2955.263618859 seconds time elapsed
+
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    3269503.360816      task-clock (msec)         #    1.001 CPUs utilized          
+             3,362      context-switches          #    0.001 K/sec                  
+               424      cpu-migrations            #    0.000 K/sec                  
+             1,590      page-faults               #    0.000 K/sec                  
+11,750,007,350,812      cycles                    #    3.594 GHz                    
+ 8,744,873,200,696      stalled-cycles-frontend   #   74.42% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,011,025,064,641      instructions              #    0.68  insns per cycle        
+                                                  #    1.09  stalled cycles per insn
+ 1,002,022,214,037      branches                  #  306.475 M/sec                  
+       104,741,204      branch-misses             #    0.01% of all branches        
+
+    3267.012612596 seconds time elapsed
+
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    2957105.436093      task-clock (msec)         #    1.001 CPUs utilized          
+             3,741      context-switches          #    0.001 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+             1,734      page-faults               #    0.001 K/sec                  
+10,612,020,772,044      cycles                    #    3.589 GHz                    
+ 7,607,634,616,859      stalled-cycles-frontend   #   71.69% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,009,809,611,477      instructions              #    0.75  insns per cycle        
+                                                  #    0.95  stalled cycles per insn
+ 1,001,803,493,036      branches                  #  338.778 M/sec                  
+       103,489,707      branch-misses             #    0.01% of all branches        
+
+    2954.849790509 seconds time elapsed
+
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    3176743.640172      task-clock (msec)         #    1.001 CPUs utilized          
+             3,703      context-switches          #    0.001 K/sec                  
+               299      cpu-migrations            #    0.000 K/sec                  
+             1,683      page-faults               #    0.001 K/sec                  
+11,411,189,182,448      cycles                    #    3.592 GHz                    
+ 8,406,309,542,279      stalled-cycles-frontend   #   73.67% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,010,668,741,854      instructions              #    0.70  insns per cycle        
+                                                  #    1.05  stalled cycles per insn
+ 1,001,957,937,065      branches                  #  315.404 M/sec                  
+       104,539,197      branch-misses             #    0.01% of all branches        
+
+    3174.325670127 seconds time elapsed
+
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    2954081.307820      task-clock (msec)         #    1.001 CPUs utilized          
+             2,956      context-switches          #    0.001 K/sec                  
+                46      cpu-migrations            #    0.000 K/sec                  
+             1,496      page-faults               #    0.001 K/sec                  
+10,611,278,545,366      cycles                    #    3.592 GHz                    
+ 7,606,868,397,905      stalled-cycles-frontend   #   71.69% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,009,754,446,731      instructions              #    0.75  insns per cycle        
+                                                  #    0.95  stalled cycles per insn
+ 1,001,793,632,416      branches                  #  339.122 M/sec                  
+       103,305,887      branch-misses             #    0.01% of all branches        
+
+    2951.829964716 seconds time elapsed
+
+
+ Performance counter stats for '/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_3/test_matmult_o1.o 10000':
+
+    3096306.489114      task-clock (msec)         #    1.001 CPUs utilized          
+             3,612      context-switches          #    0.001 K/sec                  
+               191      cpu-migrations            #    0.000 K/sec                  
+             1,586      page-faults               #    0.001 K/sec                  
+11,117,855,184,504      cycles                    #    3.591 GHz                    
+ 8,113,123,990,292      stalled-cycles-frontend   #   72.97% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 8,010,327,508,674      instructions              #    0.72  insns per cycle        
+                                                  #    1.01  stalled cycles per insn
+ 1,001,896,078,699      branches                  #  323.578 M/sec                  
+       104,126,879      branch-misses             #    0.01% of all branches        
+
+    3093.947763968 seconds time elapsed
+

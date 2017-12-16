@@ -1,0 +1,97 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    375155.smic3
+Username:  mha
+Group:     xsede
+Date:      12-Dec-2017 13:32
+Node:      smic017 (25370)
+--------------------------------------
+PBS has allocated the following nodes:
+
+smic017
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node smic017 13:32:17 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 12-Dec-2017 13:32:17
+------------------------------------------------------
+/scratch/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O2/run_3
+1000 1
+1000 2
+1000 3
+1000 4
+1000 5
+1000 6
+1000 7
+1000 8
+1000 9
+1000 10
+2500 1
+2500 2
+2500 3
+2500 4
+2500 5
+2500 6
+2500 7
+2500 8
+2500 9
+2500 10
+5000 1
+5000 2
+5000 3
+5000 4
+5000 5
+5000 6
+5000 7
+5000 8
+5000 9
+5000 10
+7500 1
+7500 2
+7500 3
+7500 4
+7500 5
+7500 6
+7500 7
+7500 8
+7500 9
+7500 10
+10000 1
+10000 2
+10000 3
+10000 4
+10000 5
+10000 6
+10000 7
+10000 8
+10000 9
+10000 10
+------------------------------------------------------
+Running PBS epilogue script    - 12-Dec-2017 23:09:14
+------------------------------------------------------
+Checking node smic017 (MS)
+Checking node smic017 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 12-Dec-2017 23:09:17
+------------------------------------------------------
+Exit Status:     0
+Job ID:          375155.smic3
+Username:        mha
+Group:           xsede
+Job Name:        submit_matmult.pbs
+Session Id:      25369
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=48:00:00
+Resources Used:  cput=09:37:14,mem=1178108kb,vmem=1657332kb,walltime=09:37:00
+Queue Used:      workq
+Account String:  TG-MCB090174
+Node:            smic017
+Process id:      31837
+Last status:     12-Dec-2017:23:01 PBS_job=375155.smic3 user=mha allocation=TG-MCB090174 queue=workq total_load=1.00 cpu_hours=0.11 wall_hours=8.53 unused_nodes=0 total_nodes=1 ppn=20 avg_load=1.00 avg_cpu=99% avg_mem=557mb avg_vmem=1594mb top_proc=mha:test_matmult_o2:smic017:1.1G:550M:0.1hr:99% toppm=mha:test_matmult_o2.o:smic017:1148M:476M node_processes=5 avg_avail_mem=61630mb min_avail_mem=61630mb reverified_avg_load=1.00
+------------------------------------------------------

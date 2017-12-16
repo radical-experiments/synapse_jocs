@@ -1,0 +1,124 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    375433.smic3
+Username:  mha
+Group:     xsede
+Date:      13-Dec-2017 15:20
+Node:      smic054 (82387)
+--------------------------------------
+PBS has allocated the following nodes:
+
+smic054
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node smic054 15:20:21 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 13-Dec-2017 15:20:21
+------------------------------------------------------
+/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_2
+/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/base_O1/run_2
+1000 1
+/home/mha
+1000 2
+/home/mha
+1000 3
+/home/mha
+1000 4
+/home/mha
+1000 5
+/home/mha
+1000 6
+/home/mha
+1000 7
+/home/mha
+1000 8
+/home/mha
+1000 9
+/home/mha
+1000 10
+/home/mha
+2500 1
+/home/mha
+2500 2
+/home/mha
+2500 3
+/home/mha
+2500 4
+/home/mha
+2500 5
+/home/mha
+2500 6
+/home/mha
+2500 7
+/home/mha
+2500 8
+/home/mha
+2500 9
+/home/mha
+2500 10
+/home/mha
+5000 1
+/home/mha
+5000 2
+/home/mha
+5000 3
+/home/mha
+5000 4
+/home/mha
+5000 5
+/home/mha
+5000 6
+/home/mha
+5000 7
+/home/mha
+5000 8
+/home/mha
+5000 9
+/home/mha
+5000 10
+/home/mha
+7500 1
+/home/mha
+7500 2
+/home/mha
+7500 3
+/home/mha
+7500 4
+/home/mha
+7500 5
+/home/mha
+7500 6
+/home/mha
+7500 7
+/home/mha
+7500 8
+/home/mha
+------------------------------------------------------
+Running PBS epilogue script    - 13-Dec-2017 19:06:47
+------------------------------------------------------
+Checking node smic054 (MS)
+Checking node smic054 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 13-Dec-2017 19:06:50
+------------------------------------------------------
+Exit Status:     271
+Job ID:          375433.smic3
+Username:        mha
+Group:           xsede
+Job Name:        submit_matmult.pbs
+Session Id:      82386
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=48:00:00
+Resources Used:  cput=03:45:57,mem=665380kb,vmem=1144512kb,walltime=03:46:28
+Queue Used:      workq
+Account String:  TG-MCB090174
+Node:            smic054
+Process id:      84892
+Last status:     13-Dec-2017:19:01 PBS_job=375433.smic3 user=mha allocation=TG-MCB090174 queue=workq total_load=1.08 cpu_hours=0.23 wall_hours=3.50 unused_nodes=0 total_nodes=1 ppn=20 avg_load=1.08 avg_cpu=99% avg_mem=521mb avg_vmem=1115mb top_proc=mha:test_matmult_o1:smic054:647M:514M:0.2hr:99% toppm=mha:test_matmult_o1.o:smic054:647M:472M node_processes=5 avg_avail_mem=62515mb min_avail_mem=62515mb reverified_avg_load=1.07
+------------------------------------------------------

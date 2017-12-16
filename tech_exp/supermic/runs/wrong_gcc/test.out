@@ -1,0 +1,46 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    375428.smic3
+Username:  mha
+Group:     xsede
+Date:      13-Dec-2017 15:15
+Node:      smic054 (79877)
+--------------------------------------
+PBS has allocated the following nodes:
+
+smic054
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node smic054 15:15:29 
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 13-Dec-2017 15:15:29
+------------------------------------------------------
+/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs
+------------------------------------------------------
+Running PBS epilogue script    - 13-Dec-2017 15:15:30
+------------------------------------------------------
+Checking node smic054 (MS)
+Checking node smic054 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 13-Dec-2017 15:15:33
+------------------------------------------------------
+Exit Status:     127
+Job ID:          375428.smic3
+Username:        mha
+Group:           xsede
+Job Name:        submit_matmult.pbs
+Session Id:      79876
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=48:00:00
+Resources Used:  cput=00:00:00,mem=0kb,vmem=0kb,walltime=00:00:04
+Queue Used:      workq
+Account String:  TG-MCB090174
+Node:            smic054
+Process id:      80452
+------------------------------------------------------

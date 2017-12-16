@@ -1,0 +1,170 @@
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    4348107.590995      task-clock (msec)         #    1.001 CPUs utilized          
+             6,243      context-switches          #    0.001 K/sec                  
+               389      cpu-migrations            #    0.000 K/sec                  
+             2,912      page-faults               #    0.001 K/sec                  
+15,618,637,383,991      cycles                    #    3.592 GHz                    
+10,969,603,856,829      stalled-cycles-frontend   #   70.23% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,155,009,967,772      instructions              #    1.16  insns per cycle        
+                                                  #    0.60  stalled cycles per insn
+   424,458,338,847      branches                  #   97.619 M/sec                  
+        62,789,494      branch-misses             #    0.01% of all branches        
+
+    4344.989015242 seconds time elapsed
+
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    4586594.993954      task-clock (msec)         #    1.001 CPUs utilized          
+             4,922      context-switches          #    0.001 K/sec                  
+               597      cpu-migrations            #    0.000 K/sec                  
+             2,655      page-faults               #    0.001 K/sec                  
+16,480,688,983,558      cycles                    #    3.593 GHz                    
+11,831,551,317,828      stalled-cycles-frontend   #   71.79% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,155,735,089,221      instructions              #    1.10  insns per cycle        
+                                                  #    0.65  stalled cycles per insn
+   424,588,230,286      branches                  #   92.572 M/sec                  
+        63,681,854      branch-misses             #    0.01% of all branches        
+
+    4583.180076228 seconds time elapsed
+
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    3983283.849593      task-clock (msec)         #    1.001 CPUs utilized          
+             4,290      context-switches          #    0.001 K/sec                  
+               171      cpu-migrations            #    0.000 K/sec                  
+             2,886      page-faults               #    0.001 K/sec                  
+14,301,032,610,878      cycles                    #    3.590 GHz                    
+ 9,652,798,640,615      stalled-cycles-frontend   #   67.50% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,153,639,362,223      instructions              #    1.27  insns per cycle        
+                                                  #    0.53  stalled cycles per insn
+   424,222,735,824      branches                  #  106.501 M/sec                  
+        61,952,073      branch-misses             #    0.01% of all branches        
+
+    3980.319536450 seconds time elapsed
+
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    3779052.560105      task-clock (msec)         #    1.001 CPUs utilized          
+             7,695      context-switches          #    0.002 K/sec                  
+                66      cpu-migrations            #    0.000 K/sec                  
+             2,652      page-faults               #    0.001 K/sec                  
+13,562,310,347,123      cycles                    #    3.589 GHz                    
+ 8,913,967,793,345      stalled-cycles-frontend   #   65.73% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,153,264,449,980      instructions              #    1.34  insns per cycle        
+                                                  #    0.49  stalled cycles per insn
+   424,161,866,892      branches                  #  112.240 M/sec                  
+        62,693,265      branch-misses             #    0.01% of all branches        
+
+    3776.527482097 seconds time elapsed
+
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    3778825.430596      task-clock (msec)         #    1.001 CPUs utilized          
+             5,143      context-switches          #    0.001 K/sec                  
+                38      cpu-migrations            #    0.000 K/sec                  
+             2,775      page-faults               #    0.001 K/sec                  
+13,562,822,983,148      cycles                    #    3.589 GHz                    
+ 8,914,685,646,773      stalled-cycles-frontend   #   65.73% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,153,159,457,328      instructions              #    1.34  insns per cycle        
+                                                  #    0.49  stalled cycles per insn
+   424,140,284,447      branches                  #  112.241 M/sec                  
+        62,561,290      branch-misses             #    0.01% of all branches        
+
+    3776.096833876 seconds time elapsed
+
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    4033163.265790      task-clock (msec)         #    1.001 CPUs utilized          
+             4,341      context-switches          #    0.001 K/sec                  
+               207      cpu-migrations            #    0.000 K/sec                  
+             2,923      page-faults               #    0.001 K/sec                  
+14,481,175,298,022      cycles                    #    3.591 GHz                    
+ 9,832,785,783,969      stalled-cycles-frontend   #   67.90% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,153,944,087,247      instructions              #    1.25  insns per cycle        
+                                                  #    0.54  stalled cycles per insn
+   424,276,128,601      branches                  #  105.197 M/sec                  
+        62,955,353      branch-misses             #    0.01% of all branches        
+
+    4030.162655058 seconds time elapsed
+
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    4187445.112015      task-clock (msec)         #    1.001 CPUs utilized          
+             4,497      context-switches          #    0.001 K/sec                  
+               313      cpu-migrations            #    0.000 K/sec                  
+             2,581      page-faults               #    0.001 K/sec                  
+15,037,869,978,700      cycles                    #    3.591 GHz                    
+10,389,318,340,695      stalled-cycles-frontend   #   69.09% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,154,375,879,740      instructions              #    1.21  insns per cycle        
+                                                  #    0.57  stalled cycles per insn
+   424,351,780,582      branches                  #  101.339 M/sec                  
+        63,167,984      branch-misses             #    0.01% of all branches        
+
+    4184.331665740 seconds time elapsed
+
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    3799401.508770      task-clock (msec)         #    1.001 CPUs utilized          
+             4,087      context-switches          #    0.001 K/sec                  
+                10      cpu-migrations            #    0.000 K/sec                  
+             2,710      page-faults               #    0.001 K/sec                  
+13,635,464,493,578      cycles                    #    3.589 GHz                    
+ 8,987,331,029,570      stalled-cycles-frontend   #   65.91% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,153,023,417,434      instructions              #    1.33  insns per cycle        
+                                                  #    0.50  stalled cycles per insn
+   424,115,739,185      branches                  #  111.627 M/sec                  
+        61,802,343      branch-misses             #    0.01% of all branches        
+
+    3796.599749084 seconds time elapsed
+
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    4329873.442501      task-clock (msec)         #    1.001 CPUs utilized          
+             4,641      context-switches          #    0.001 K/sec                  
+               451      cpu-migrations            #    0.000 K/sec                  
+             2,825      page-faults               #    0.001 K/sec                  
+15,552,668,411,689      cycles                    #    3.592 GHz                    
+10,903,890,997,509      stalled-cycles-frontend   #   70.11% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,154,879,785,693      instructions              #    1.17  insns per cycle        
+                                                  #    0.60  stalled cycles per insn
+   424,440,166,261      branches                  #   98.026 M/sec                  
+        63,222,011      branch-misses             #    0.01% of all branches        
+
+    4326.648280491 seconds time elapsed
+
+
+ Performance counter stats for 'python /work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/mult_array.py 7500':
+
+    3785412.670467      task-clock (msec)         #    1.001 CPUs utilized          
+             4,079      context-switches          #    0.001 K/sec                  
+                 6      cpu-migrations            #    0.000 K/sec                  
+             2,506      page-faults               #    0.001 K/sec                  
+13,585,205,840,464      cycles                    #    3.589 GHz                    
+ 8,937,329,304,769      stalled-cycles-frontend   #   65.79% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+18,152,976,571,164      instructions              #    1.34  insns per cycle        
+                                                  #    0.49  stalled cycles per insn
+   424,104,934,203      branches                  #  112.037 M/sec                  
+        61,207,533      branch-misses             #    0.01% of all branches        
+
+    3782.593269385 seconds time elapsed
+

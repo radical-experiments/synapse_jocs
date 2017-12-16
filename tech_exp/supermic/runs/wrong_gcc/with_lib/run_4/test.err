@@ -1,0 +1,1 @@
+/work/mha/synapse_exp/synapse_jocs/tech_exp/supermic/runs/with_lib/run_4/run_test_matmult.sh: line 7: 16209 Terminated              perf stat python $work_dir/mult_array.py $mat_size 2>> $work_dir/perf_stat_with_lib_$mat_size
