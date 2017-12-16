@@ -1,0 +1,160 @@
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1290298.124727      task-clock (msec)         #    1.001 CPUs utilized          
+             2,717      context-switches          #    0.002 K/sec                  
+               240      cpu-migrations            #    0.000 K/sec                  
+             3,463      page-faults               #    0.003 K/sec                  
+ 3,729,095,711,537      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,379,612,400,277      instructions              #    1.44  insns per cycle        
+   125,858,034,564      branches                  #   97.542 M/sec                  
+        31,451,837      branch-misses             #    0.02% of all branches        
+
+    1289.016441311 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1300393.480693      task-clock (msec)         #    1.000 CPUs utilized          
+             4,279      context-switches          #    0.003 K/sec                  
+               165      cpu-migrations            #    0.000 K/sec                  
+             2,678      page-faults               #    0.002 K/sec                  
+ 3,758,266,973,897      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,379,648,021,822      instructions              #    1.43  insns per cycle        
+   125,865,729,808      branches                  #   96.790 M/sec                  
+        31,437,202      branch-misses             #    0.02% of all branches        
+
+    1300.795403131 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1327774.262157      task-clock (msec)         #    1.001 CPUs utilized          
+             2,812      context-switches          #    0.002 K/sec                  
+               284      cpu-migrations            #    0.000 K/sec                  
+             3,655      page-faults               #    0.003 K/sec                  
+ 3,837,410,351,350      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,379,740,649,797      instructions              #    1.40  insns per cycle        
+   125,881,788,486      branches                  #   94.807 M/sec                  
+        31,958,759      branch-misses             #    0.03% of all branches        
+
+    1326.487740975 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1351025.099459      task-clock (msec)         #    1.000 CPUs utilized          
+             3,723      context-switches          #    0.003 K/sec                  
+               176      cpu-migrations            #    0.000 K/sec                  
+             3,326      page-faults               #    0.002 K/sec                  
+ 3,904,599,189,853      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,379,800,943,948      instructions              #    1.38  insns per cycle        
+   125,889,474,045      branches                  #   93.181 M/sec                  
+        31,762,173      branch-misses             #    0.03% of all branches        
+
+    1350.574052318 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1395504.478039      task-clock (msec)         #    1.001 CPUs utilized          
+             2,548      context-switches          #    0.002 K/sec                  
+               390      cpu-migrations            #    0.000 K/sec                  
+             3,240      page-faults               #    0.002 K/sec                  
+ 4,033,155,860,178      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,380,013,234,928      instructions              #    1.33  insns per cycle        
+   125,930,048,801      branches                  #   90.240 M/sec                  
+        32,198,798      branch-misses             #    0.03% of all branches        
+
+    1394.163243832 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1452467.880903      task-clock (msec)         #    1.001 CPUs utilized          
+             2,184      context-switches          #    0.002 K/sec                  
+               498      cpu-migrations            #    0.000 K/sec                  
+             3,349      page-faults               #    0.002 K/sec                  
+ 4,197,789,922,344      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,380,129,108,180      instructions              #    1.28  insns per cycle        
+   125,951,219,561      branches                  #   86.715 M/sec                  
+        32,262,176      branch-misses             #    0.03% of all branches        
+
+    1450.942798319 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1438007.671925      task-clock (msec)         #    1.001 CPUs utilized          
+             2,455      context-switches          #    0.002 K/sec                  
+               399      cpu-migrations            #    0.000 K/sec                  
+             2,681      page-faults               #    0.002 K/sec                  
+ 4,155,995,921,908      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,380,063,563,092      instructions              #    1.29  insns per cycle        
+   125,937,918,438      branches                  #   87.578 M/sec                  
+        32,137,146      branch-misses             #    0.03% of all branches        
+
+    1436.523941175 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1370691.139633      task-clock (msec)         #    1.001 CPUs utilized          
+             3,393      context-switches          #    0.002 K/sec                  
+               265      cpu-migrations            #    0.000 K/sec                  
+             2,709      page-faults               #    0.002 K/sec                  
+ 3,961,437,766,058      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,379,844,263,458      instructions              #    1.36  insns per cycle        
+   125,895,098,486      branches                  #   91.848 M/sec                  
+        31,443,355      branch-misses             #    0.02% of all branches        
+
+    1369.374717297 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1468305.507020      task-clock (msec)         #    1.001 CPUs utilized          
+             1,743      context-switches          #    0.001 K/sec                  
+               382      cpu-migrations            #    0.000 K/sec                  
+             3,489      page-faults               #    0.002 K/sec                  
+ 4,243,564,684,486      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,380,128,907,009      instructions              #    1.27  insns per cycle        
+   125,947,677,203      branches                  #   85.778 M/sec                  
+        32,426,708      branch-misses             #    0.03% of all branches        
+
+    1466.783303870 seconds time elapsed
+
+
+ Performance counter stats for 'python mult_array.py 5000':
+
+    1343579.403178      task-clock (msec)         #    1.001 CPUs utilized          
+             3,825      context-switches          #    0.003 K/sec                  
+               156      cpu-migrations            #    0.000 K/sec                  
+             3,526      page-faults               #    0.003 K/sec                  
+ 3,883,080,186,021      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 5,379,759,917,819      instructions              #    1.39  insns per cycle        
+   125,884,561,419      branches                  #   93.693 M/sec                  
+        30,521,756      branch-misses             #    0.02% of all branches        
+
+    1342.530559501 seconds time elapsed
+

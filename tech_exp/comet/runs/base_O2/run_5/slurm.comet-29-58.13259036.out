@@ -1,0 +1,29 @@
+/home/mingtha/synapse_exp/synapse_jocs/tech_exp/comet/runs/base_O2/run_5
+1000 1
+1000 2
+1000 3
+1000 4
+1000 5
+1000 6
+1000 7
+1000 8
+1000 9
+1000 10
+2500 1
+2500 2
+2500 3
+2500 4
+2500 5
+2500 6
+2500 7
+2500 8
+2500 9
+2500 10
+5000 1
+5000 2
+srun: got SIGCONT
+slurmstepd: *** JOB 13259036 ON comet-29-58 CANCELLED AT 2017-12-12T12:39:46 ***
+srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
+srun: forcing job termination
+slurmstepd: *** STEP 13259036.0 ON comet-29-58 CANCELLED AT 2017-12-12T12:39:48 ***
+srun: error: comet-29-58: task 0: Terminated
