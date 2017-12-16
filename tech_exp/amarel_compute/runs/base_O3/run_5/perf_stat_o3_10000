@@ -1,0 +1,170 @@
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1896832.348966      task-clock (msec)         #    1.000 CPUs utilized          
+           192,067      context-switches          #    0.101 K/sec                  
+                 5      cpu-migrations            #    0.000 K/sec                  
+             2,452      page-faults               #    0.001 K/sec                  
+ 6,237,303,872,857      cycles                    #    3.288 GHz                    
+ 3,234,881,787,391      stalled-cycles-frontend   #   51.86% frontend cycles idle   
+   937,099,682,135      stalled-cycles-backend    #   15.02% backend cycles idle    
+ 8,007,409,526,961      instructions              #    1.28  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,343,390,949      branches                  #  527.903 M/sec                  
+       103,951,614      branch-misses             #    0.01% of all branches        
+
+    1896.948103408 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1887047.540051      task-clock (msec)         #    1.000 CPUs utilized          
+           188,784      context-switches          #    0.100 K/sec                  
+                 5      cpu-migrations            #    0.000 K/sec                  
+             2,445      page-faults               #    0.001 K/sec                  
+ 6,205,193,617,519      cycles                    #    3.288 GHz                    
+ 3,202,882,951,189      stalled-cycles-frontend   #   51.62% frontend cycles idle   
+   920,667,915,229      stalled-cycles-backend    #   14.84% backend cycles idle    
+ 8,007,363,696,629      instructions              #    1.29  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,334,662,185      branches                  #  530.636 M/sec                  
+       103,858,770      branch-misses             #    0.01% of all branches        
+
+    1887.146316826 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1881184.624228      task-clock (msec)         #    1.000 CPUs utilized          
+           189,399      context-switches          #    0.101 K/sec                  
+                39      cpu-migrations            #    0.000 K/sec                  
+             3,467      page-faults               #    0.002 K/sec                  
+ 6,186,466,067,961      cycles                    #    3.289 GHz                    
+ 3,184,114,730,105      stalled-cycles-frontend   #   51.47% frontend cycles idle   
+   910,107,750,257      stalled-cycles-backend    #   14.71% backend cycles idle    
+ 8,007,421,856,237      instructions              #    1.29  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,340,323,003      branches                  #  532.292 M/sec                  
+       104,761,469      branch-misses             #    0.01% of all branches        
+
+    1881.386453572 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1886587.088934      task-clock (msec)         #    1.000 CPUs utilized          
+           188,854      context-switches          #    0.100 K/sec                  
+                30      cpu-migrations            #    0.000 K/sec                  
+             2,459      page-faults               #    0.001 K/sec                  
+ 6,203,714,764,338      cycles                    #    3.288 GHz                    
+ 3,201,339,911,913      stalled-cycles-frontend   #   51.60% frontend cycles idle   
+   919,553,697,579      stalled-cycles-backend    #   14.82% backend cycles idle    
+ 8,007,390,661,760      instructions              #    1.29  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,340,657,282      branches                  #  530.768 M/sec                  
+       104,467,664      branch-misses             #    0.01% of all branches        
+
+    1886.698328788 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1887580.667604      task-clock (msec)         #    1.000 CPUs utilized          
+           188,836      context-switches          #    0.100 K/sec                  
+                 4      cpu-migrations            #    0.000 K/sec                  
+             2,957      page-faults               #    0.002 K/sec                  
+ 6,207,024,885,205      cycles                    #    3.288 GHz                    
+ 3,204,654,286,160      stalled-cycles-frontend   #   51.63% frontend cycles idle   
+   922,170,309,196      stalled-cycles-backend    #   14.86% backend cycles idle    
+ 8,007,359,189,513      instructions              #    1.29  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,331,373,546      branches                  #  530.484 M/sec                  
+       104,437,314      branch-misses             #    0.01% of all branches        
+
+    1887.672785761 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1885913.964584      task-clock (msec)         #    1.000 CPUs utilized          
+           188,671      context-switches          #    0.100 K/sec                  
+                 1      cpu-migrations            #    0.000 K/sec                  
+             2,955      page-faults               #    0.002 K/sec                  
+ 6,201,432,721,284      cycles                    #    3.288 GHz                    
+ 3,199,078,609,600      stalled-cycles-frontend   #   51.59% frontend cycles idle   
+   918,969,013,780      stalled-cycles-backend    #   14.82% backend cycles idle    
+ 8,007,371,505,702      instructions              #    1.29  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,335,443,615      branches                  #  530.955 M/sec                  
+       104,461,162      branch-misses             #    0.01% of all branches        
+
+    1886.012307063 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1884863.995641      task-clock (msec)         #    1.000 CPUs utilized          
+           188,960      context-switches          #    0.100 K/sec                  
+                26      cpu-migrations            #    0.000 K/sec                  
+             2,955      page-faults               #    0.002 K/sec                  
+ 6,197,951,551,896      cycles                    #    3.288 GHz                    
+ 3,195,577,369,088      stalled-cycles-frontend   #   51.56% frontend cycles idle   
+   917,051,212,563      stalled-cycles-backend    #   14.80% backend cycles idle    
+ 8,007,377,915,778      instructions              #    1.29  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,334,347,883      branches                  #  531.250 M/sec                  
+       104,298,402      branch-misses             #    0.01% of all branches        
+
+    1885.006461355 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1887557.506063      task-clock (msec)         #    1.000 CPUs utilized          
+           191,142      context-switches          #    0.101 K/sec                  
+                 4      cpu-migrations            #    0.000 K/sec                  
+             2,956      page-faults               #    0.002 K/sec                  
+ 6,208,921,742,157      cycles                    #    3.289 GHz                    
+ 3,206,386,540,666      stalled-cycles-frontend   #   51.64% frontend cycles idle   
+   923,356,607,935      stalled-cycles-backend    #   14.87% backend cycles idle    
+ 8,007,457,855,328      instructions              #    1.29  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,366,745,257      branches                  #  530.509 M/sec                  
+       104,249,216      branch-misses             #    0.01% of all branches        
+
+    1887.708991805 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1886412.950467      task-clock (msec)         #    1.000 CPUs utilized          
+           188,721      context-switches          #    0.100 K/sec                  
+                 8      cpu-migrations            #    0.000 K/sec                  
+             3,467      page-faults               #    0.002 K/sec                  
+ 6,203,187,045,666      cycles                    #    3.288 GHz                    
+ 3,200,862,196,508      stalled-cycles-frontend   #   51.60% frontend cycles idle   
+   919,239,692,216      stalled-cycles-backend    #   14.82% backend cycles idle    
+ 8,007,369,221,986      instructions              #    1.29  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,336,327,244      branches                  #  530.815 M/sec                  
+       104,014,136      branch-misses             #    0.01% of all branches        
+
+    1886.518730038 seconds time elapsed
+
+
+ Performance counter stats for './test_matmult_o3.o 10000':
+
+    1886260.402738      task-clock (msec)         #    1.000 CPUs utilized          
+           188,704      context-switches          #    0.100 K/sec                  
+                 2      cpu-migrations            #    0.000 K/sec                  
+             3,467      page-faults               #    0.002 K/sec                  
+ 6,202,517,291,037      cycles                    #    3.288 GHz                    
+ 3,200,199,313,342      stalled-cycles-frontend   #   51.60% frontend cycles idle   
+   918,937,910,229      stalled-cycles-backend    #   14.82% backend cycles idle    
+ 8,007,378,636,611      instructions              #    1.29  insn per cycle         
+                                                  #    0.40  stalled cycles per insn
+ 1,001,338,259,370      branches                  #  530.859 M/sec                  
+       104,425,225      branch-misses             #    0.01% of all branches        
+
+    1886.355429809 seconds time elapsed
+
