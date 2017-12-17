@@ -1,0 +1,350 @@
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+Traceback (most recent call last):
+  File "/home/mingtha/synapse_exp/ve.synapse/bin/radical-synapse-sample", line 11, in <module>
+    import radical.synapse       as rs
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/__init__.py", line 15, in <module>
+    from synapse   import profile
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/synapse.py", line 11, in <module>
+    import watcher as rsw
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/__init__.py", line 9, in <module>
+    from watcher_mem  import WatcherMem
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_mem.py", line 7, in <module>
+    import watcher_base as wb
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_base.py", line 11, in <module>
+    from ..utils import timestamp
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/__init__.py", line 9, in <module>
+    from misc import *
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/misc.py", line 28, in <module>
+    logger = ru.get_logger('radical.synapse')
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/utils/logger.py", line 226, in get_logger
+    if not path: path = os.getcwd()
+OSError: [Errno 2] No such file or directory
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+        190.747211      task-clock (msec)         #    0.770 CPUs utilized          
+               571      context-switches          #    0.003 M/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             9,365      page-faults               #    0.049 M/sec                  
+       549,446,091      cycles                    #    2.880 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+       797,464,820      instructions              #    1.45  insns per cycle        
+       185,035,122      branches                  #  970.054 M/sec                  
+         4,267,785      branch-misses             #    2.31% of all branches        
+
+       0.247688349 seconds time elapsed
+
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+Traceback (most recent call last):
+  File "/home/mingtha/synapse_exp/ve.synapse/bin/radical-synapse-sample", line 11, in <module>
+    import radical.synapse       as rs
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/__init__.py", line 15, in <module>
+    from synapse   import profile
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/synapse.py", line 11, in <module>
+    import watcher as rsw
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/__init__.py", line 9, in <module>
+    from watcher_mem  import WatcherMem
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_mem.py", line 7, in <module>
+    import watcher_base as wb
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_base.py", line 11, in <module>
+    from ..utils import timestamp
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/__init__.py", line 9, in <module>
+    from misc import *
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/misc.py", line 28, in <module>
+    logger = ru.get_logger('radical.synapse')
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/utils/logger.py", line 226, in get_logger
+    if not path: path = os.getcwd()
+OSError: [Errno 2] No such file or directory
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+        186.057963      task-clock (msec)         #    0.788 CPUs utilized          
+               488      context-switches          #    0.003 M/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             9,479      page-faults               #    0.051 M/sec                  
+       536,145,392      cycles                    #    2.882 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+       790,186,004      instructions              #    1.47  insns per cycle        
+       183,286,234      branches                  #  985.103 M/sec                  
+         4,260,815      branch-misses             #    2.32% of all branches        
+
+       0.236062815 seconds time elapsed
+
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+Traceback (most recent call last):
+  File "/home/mingtha/synapse_exp/ve.synapse/bin/radical-synapse-sample", line 11, in <module>
+    import radical.synapse       as rs
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/__init__.py", line 15, in <module>
+    from synapse   import profile
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/synapse.py", line 11, in <module>
+    import watcher as rsw
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/__init__.py", line 9, in <module>
+    from watcher_mem  import WatcherMem
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_mem.py", line 7, in <module>
+    import watcher_base as wb
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_base.py", line 11, in <module>
+    from ..utils import timestamp
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/__init__.py", line 9, in <module>
+    from misc import *
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/misc.py", line 28, in <module>
+    logger = ru.get_logger('radical.synapse')
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/utils/logger.py", line 226, in get_logger
+    if not path: path = os.getcwd()
+OSError: [Errno 2] No such file or directory
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+        186.410557      task-clock (msec)         #    0.769 CPUs utilized          
+               490      context-switches          #    0.003 M/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             9,405      page-faults               #    0.050 M/sec                  
+       537,133,855      cycles                    #    2.881 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+       789,947,431      instructions              #    1.47  insns per cycle        
+       183,249,765      branches                  #  983.044 M/sec                  
+         4,255,706      branch-misses             #    2.32% of all branches        
+
+       0.242255959 seconds time elapsed
+
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+Traceback (most recent call last):
+  File "/home/mingtha/synapse_exp/ve.synapse/bin/radical-synapse-sample", line 11, in <module>
+    import radical.synapse       as rs
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/__init__.py", line 15, in <module>
+    from synapse   import profile
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/synapse.py", line 11, in <module>
+    import watcher as rsw
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/__init__.py", line 9, in <module>
+    from watcher_mem  import WatcherMem
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_mem.py", line 7, in <module>
+    import watcher_base as wb
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_base.py", line 11, in <module>
+    from ..utils import timestamp
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/__init__.py", line 9, in <module>
+    from misc import *
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/misc.py", line 28, in <module>
+    logger = ru.get_logger('radical.synapse')
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/utils/logger.py", line 226, in get_logger
+    if not path: path = os.getcwd()
+OSError: [Errno 2] No such file or directory
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+        185.990434      task-clock (msec)         #    0.765 CPUs utilized          
+               490      context-switches          #    0.003 M/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             9,381      page-faults               #    0.050 M/sec                  
+       535,946,055      cycles                    #    2.882 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+       790,043,102      instructions              #    1.47  insns per cycle        
+       183,271,616      branches                  #  985.382 M/sec                  
+         4,255,674      branch-misses             #    2.32% of all branches        
+
+       0.243179774 seconds time elapsed
+
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+Traceback (most recent call last):
+  File "/home/mingtha/synapse_exp/ve.synapse/bin/radical-synapse-sample", line 11, in <module>
+    import radical.synapse       as rs
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/__init__.py", line 15, in <module>
+    from synapse   import profile
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/synapse.py", line 11, in <module>
+    import watcher as rsw
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/__init__.py", line 9, in <module>
+    from watcher_mem  import WatcherMem
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_mem.py", line 7, in <module>
+    import watcher_base as wb
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/watcher/watcher_base.py", line 11, in <module>
+    from ..utils import timestamp
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/__init__.py", line 9, in <module>
+    from misc import *
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/synapse/utils/misc.py", line 28, in <module>
+    logger = ru.get_logger('radical.synapse')
+  File "/home/mingtha/synapse_exp/ve.synapse/lib/python2.7/site-packages/radical/utils/logger.py", line 226, in get_logger
+    if not path: path = os.getcwd()
+OSError: [Errno 2] No such file or directory
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+        187.032248      task-clock (msec)         #    0.765 CPUs utilized          
+               487      context-switches          #    0.003 M/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             9,377      page-faults               #    0.050 M/sec                  
+       538,933,927      cycles                    #    2.882 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+       789,954,307      instructions              #    1.47  insns per cycle        
+       183,257,171      branches                  #  979.816 M/sec                  
+         4,295,268      branch-misses             #    2.34% of all branches        
+
+       0.244336760 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     229346.793607      task-clock (msec)         #    1.000 CPUs utilized          
+             1,588      context-switches          #    0.007 K/sec                  
+                96      cpu-migrations            #    0.000 K/sec                  
+           112,130      page-faults               #    0.489 K/sec                  
+   662,835,113,870      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,169,887,598      instructions              #    2.79  insns per cycle        
+    43,494,194,681      branches                  #  189.644 M/sec                  
+        50,075,162      branch-misses             #    0.12% of all branches        
+
+     229.290975613 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     229345.524319      task-clock (msec)         #    1.000 CPUs utilized          
+             1,564      context-switches          #    0.007 K/sec                  
+                77      cpu-migrations            #    0.000 K/sec                  
+           112,095      page-faults               #    0.489 K/sec                  
+   662,831,425,566      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,172,017,170      instructions              #    2.79  insns per cycle        
+    43,494,457,444      branches                  #  189.646 M/sec                  
+        50,231,440      branch-misses             #    0.12% of all branches        
+
+     229.292003126 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     229295.503169      task-clock (msec)         #    1.000 CPUs utilized          
+             1,075      context-switches          #    0.005 K/sec                  
+               126      cpu-migrations            #    0.001 K/sec                  
+           112,132      page-faults               #    0.489 K/sec                  
+   662,688,136,226      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,172,619,170      instructions              #    2.79  insns per cycle        
+    43,494,105,844      branches                  #  189.686 M/sec                  
+        50,048,668      branch-misses             #    0.12% of all branches        
+
+     229.203761434 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     228861.110458      task-clock (msec)         #    1.000 CPUs utilized          
+             1,315      context-switches          #    0.006 K/sec                  
+                96      cpu-migrations            #    0.000 K/sec                  
+           112,093      page-faults               #    0.490 K/sec                  
+   661,432,160,043      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,168,722,268      instructions              #    2.80  insns per cycle        
+    43,493,903,833      branches                  #  190.045 M/sec                  
+        50,047,794      branch-misses             #    0.12% of all branches        
+
+     228.788656722 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     228731.919708      task-clock (msec)         #    1.000 CPUs utilized          
+             1,075      context-switches          #    0.005 K/sec                  
+                84      cpu-migrations            #    0.000 K/sec                  
+           111,620      page-faults               #    0.488 K/sec                  
+   661,059,380,658      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,168,332,342      instructions              #    2.80  insns per cycle        
+    43,493,423,045      branches                  #  190.150 M/sec                  
+        50,027,304      branch-misses             #    0.12% of all branches        
+
+     228.644752054 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     229366.725626      task-clock (msec)         #    1.000 CPUs utilized          
+             1,099      context-switches          #    0.005 K/sec                  
+               144      cpu-migrations            #    0.001 K/sec                  
+           112,098      page-faults               #    0.489 K/sec                  
+   662,893,880,288      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,175,647,009      instructions              #    2.79  insns per cycle        
+    43,495,037,331      branches                  #  189.631 M/sec                  
+        50,275,512      branch-misses             #    0.12% of all branches        
+
+     229.287684352 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     229320.290267      task-clock (msec)         #    1.000 CPUs utilized          
+             1,600      context-switches          #    0.007 K/sec                  
+               113      cpu-migrations            #    0.000 K/sec                  
+           112,044      page-faults               #    0.489 K/sec                  
+   662,758,466,368      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,172,785,881      instructions              #    2.79  insns per cycle        
+    43,494,726,729      branches                  #  189.668 M/sec                  
+        50,126,569      branch-misses             #    0.12% of all branches        
+
+     229.265893029 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     229316.256980      task-clock (msec)         #    1.000 CPUs utilized          
+             1,534      context-switches          #    0.007 K/sec                  
+                80      cpu-migrations            #    0.000 K/sec                  
+           112,134      page-faults               #    0.489 K/sec                  
+   662,746,956,352      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,173,817,643      instructions              #    2.79  insns per cycle        
+    43,494,888,306      branches                  #  189.672 M/sec                  
+        50,052,162      branch-misses             #    0.12% of all branches        
+
+     229.258949126 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     229229.458505      task-clock (msec)         #    1.000 CPUs utilized          
+             1,087      context-switches          #    0.005 K/sec                  
+               111      cpu-migrations            #    0.000 K/sec                  
+           112,109      page-faults               #    0.489 K/sec                  
+   662,497,297,064      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,180,305,929      instructions              #    2.79  insns per cycle        
+    43,495,886,214      branches                  #  189.748 M/sec                  
+        49,916,810      branch-misses             #    0.11% of all branches        
+
+     229.143617296 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 111 -s 43':
+
+     229245.331099      task-clock (msec)         #    1.000 CPUs utilized          
+             1,569      context-switches          #    0.007 K/sec                  
+               106      cpu-migrations            #    0.000 K/sec                  
+           112,136      page-faults               #    0.489 K/sec                  
+   662,541,750,748      cycles                    #    2.890 GHz                    
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+ 1,851,171,415,334      instructions              #    2.79  insns per cycle        
+    43,494,411,419      branches                  #  189.729 M/sec                  
+        50,006,780      branch-misses             #    0.11% of all branches        
+
+     229.192194967 seconds time elapsed
+

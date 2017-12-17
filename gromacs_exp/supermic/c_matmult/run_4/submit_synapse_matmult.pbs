@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#PBS -q workq
+#PBS -l walltime=48:00:00
+#PBS -l nodes=1:ppn=20
+#PBS -V
+#PBS -o test.out
+#PBS -e test.err
+
+module load gcc/4.9.0
+module load python/2.7.7/GCC-4.9.0
+
+echo $PBS_O_WORKDIR
+$PBS_O_WORKDIR/run_synapse.sh $PBS_O_WORKDIR

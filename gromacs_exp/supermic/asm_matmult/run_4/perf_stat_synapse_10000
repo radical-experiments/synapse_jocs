@@ -1,0 +1,170 @@
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     555916.139396      task-clock (msec)         #    1.000 CPUs utilized          
+             3,501      context-switches          #    0.006 K/sec                  
+                17      cpu-migrations            #    0.000 K/sec                  
+            11,169      page-faults               #    0.020 K/sec                  
+ 1,996,581,736,188      cycles                    #    3.592 GHz                    
+   659,425,659,136      stalled-cycles-frontend   #   33.03% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,064,798,159      instructions              #    2.86  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,762,664,873      branches                  #  791.059 M/sec                  
+         7,397,826      branch-misses             #    0.00% of all branches        
+
+     555.755938199 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     560488.791262      task-clock (msec)         #    1.000 CPUs utilized          
+             3,563      context-switches          #    0.006 K/sec                  
+                25      cpu-migrations            #    0.000 K/sec                  
+            11,127      page-faults               #    0.020 K/sec                  
+ 2,013,602,031,225      cycles                    #    3.593 GHz                    
+   676,918,132,789      stalled-cycles-frontend   #   33.62% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,079,546,810      instructions              #    2.84  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,765,276,931      branches                  #  784.610 M/sec                  
+         7,317,851      branch-misses             #    0.00% of all branches        
+
+     560.312705300 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     555709.225164      task-clock (msec)         #    1.000 CPUs utilized          
+             3,519      context-switches          #    0.006 K/sec                  
+                25      cpu-migrations            #    0.000 K/sec                  
+            11,117      page-faults               #    0.020 K/sec                  
+ 1,996,056,510,448      cycles                    #    3.592 GHz                    
+   658,880,344,685      stalled-cycles-frontend   #   33.01% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,065,443,023      instructions              #    2.86  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,762,821,827      branches                  #  791.354 M/sec                  
+         7,338,468      branch-misses             #    0.00% of all branches        
+
+     555.532290317 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     555805.276333      task-clock (msec)         #    1.000 CPUs utilized          
+             3,547      context-switches          #    0.006 K/sec                  
+                27      cpu-migrations            #    0.000 K/sec                  
+            11,115      page-faults               #    0.020 K/sec                  
+ 1,996,242,263,557      cycles                    #    3.592 GHz                    
+   659,459,920,397      stalled-cycles-frontend   #   33.04% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,065,777,820      instructions              #    2.86  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,762,883,356      branches                  #  791.218 M/sec                  
+         7,363,069      branch-misses             #    0.00% of all branches        
+
+     555.630749085 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     556575.178648      task-clock (msec)         #    1.000 CPUs utilized          
+             3,575      context-switches          #    0.006 K/sec                  
+                29      cpu-migrations            #    0.000 K/sec                  
+            11,131      page-faults               #    0.020 K/sec                  
+ 1,998,901,527,090      cycles                    #    3.591 GHz                    
+   662,642,296,969      stalled-cycles-frontend   #   33.15% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,068,859,617      instructions              #    2.86  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,763,438,278      branches                  #  790.124 M/sec                  
+         7,346,003      branch-misses             #    0.00% of all branches        
+
+     556.400818722 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     559196.353335      task-clock (msec)         #    1.000 CPUs utilized          
+             3,553      context-switches          #    0.006 K/sec                  
+                24      cpu-migrations            #    0.000 K/sec                  
+            11,132      page-faults               #    0.020 K/sec                  
+ 2,008,720,391,371      cycles                    #    3.592 GHz                    
+   672,268,049,296      stalled-cycles-frontend   #   33.47% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,077,688,627      instructions              #    2.84  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,765,353,266      branches                  #  786.424 M/sec                  
+         7,518,020      branch-misses             #    0.00% of all branches        
+
+     559.040521777 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     558981.151606      task-clock (msec)         #    1.000 CPUs utilized          
+             3,563      context-switches          #    0.006 K/sec                  
+                25      cpu-migrations            #    0.000 K/sec                  
+            11,181      page-faults               #    0.020 K/sec                  
+ 2,008,152,607,063      cycles                    #    3.593 GHz                    
+   670,696,023,734      stalled-cycles-frontend   #   33.40% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,077,452,154      instructions              #    2.84  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,765,248,159      branches                  #  786.726 M/sec                  
+         7,553,918      branch-misses             #    0.00% of all branches        
+
+     558.818895864 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     556757.185874      task-clock (msec)         #    1.000 CPUs utilized          
+             3,565      context-switches          #    0.006 K/sec                  
+                20      cpu-migrations            #    0.000 K/sec                  
+            11,102      page-faults               #    0.020 K/sec                  
+ 2,000,130,411,255      cycles                    #    3.592 GHz                    
+   663,035,595,235      stalled-cycles-frontend   #   33.15% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,075,640,678      instructions              #    2.86  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,764,522,799      branches                  #  789.868 M/sec                  
+         7,477,002      branch-misses             #    0.00% of all branches        
+
+     556.591046419 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     556353.138612      task-clock (msec)         #    1.000 CPUs utilized          
+             3,544      context-switches          #    0.006 K/sec                  
+                28      cpu-migrations            #    0.000 K/sec                  
+            11,074      page-faults               #    0.020 K/sec                  
+ 1,997,988,303,203      cycles                    #    3.591 GHz                    
+   660,336,265,577      stalled-cycles-frontend   #   33.05% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,073,955,920      instructions              #    2.86  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,764,262,569      branches                  #  790.441 M/sec                  
+         7,425,139      branch-misses             #    0.00% of all branches        
+
+     556.208939448 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -f 5856802123966 -s 1':
+
+     556578.437720      task-clock (msec)         #    1.000 CPUs utilized          
+             3,541      context-switches          #    0.006 K/sec                  
+                23      cpu-migrations            #    0.000 K/sec                  
+            11,173      page-faults               #    0.020 K/sec                  
+ 1,999,750,317,050      cycles                    #    3.593 GHz                    
+   662,609,524,318      stalled-cycles-frontend   #   33.13% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+ 5,713,074,350,593      instructions              #    2.86  insns per cycle        
+                                                  #    0.12  stalled cycles per insn
+   439,764,314,436      branches                  #  790.121 M/sec                  
+         7,468,654      branch-misses             #    0.00% of all branches        
+
+     556.426145886 seconds time elapsed
+

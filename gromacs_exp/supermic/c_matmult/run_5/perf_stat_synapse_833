@@ -1,0 +1,170 @@
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3948927.145299      task-clock (msec)         #    1.001 CPUs utilized          
+            10,091      context-switches          #    0.003 K/sec                  
+               170      cpu-migrations            #    0.000 K/sec                  
+         1,957,148      page-faults               #    0.496 K/sec                  
+14,180,483,334,047      cycles                    #    3.591 GHz                    
+ 4,994,564,382,962      stalled-cycles-frontend   #   35.22% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,567,883,045      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,148,602,356      branches                  #  212.247 M/sec                  
+       844,152,522      branch-misses             #    0.10% of all branches        
+
+    3946.236162052 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3948438.356541      task-clock (msec)         #    1.001 CPUs utilized          
+             9,871      context-switches          #    0.002 K/sec                  
+               144      cpu-migrations            #    0.000 K/sec                  
+         1,957,092      page-faults               #    0.496 K/sec                  
+14,178,390,915,504      cycles                    #    3.591 GHz                    
+ 4,992,725,960,897      stalled-cycles-frontend   #   35.21% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,562,372,284      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,147,616,402      branches                  #  212.273 M/sec                  
+       843,994,193      branch-misses             #    0.10% of all branches        
+
+    3945.747094840 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3949091.519610      task-clock (msec)         #    1.001 CPUs utilized          
+            10,207      context-switches          #    0.003 K/sec                  
+               137      cpu-migrations            #    0.000 K/sec                  
+         1,957,097      page-faults               #    0.496 K/sec                  
+14,179,159,446,462      cycles                    #    3.590 GHz                    
+ 4,993,433,437,185      stalled-cycles-frontend   #   35.22% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,572,763,671      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,150,230,619      branches                  #  212.239 M/sec                  
+       844,281,536      branch-misses             #    0.10% of all branches        
+
+    3946.384266442 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3949924.254103      task-clock (msec)         #    1.001 CPUs utilized          
+            10,158      context-switches          #    0.003 K/sec                  
+               187      cpu-migrations            #    0.000 K/sec                  
+         1,957,235      page-faults               #    0.496 K/sec                  
+14,180,903,639,720      cycles                    #    3.590 GHz                    
+ 4,995,032,405,021      stalled-cycles-frontend   #   35.22% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,572,715,780      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,149,840,976      branches                  #  212.194 M/sec                  
+       844,431,012      branch-misses             #    0.10% of all branches        
+
+    3947.225943241 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3948052.408877      task-clock (msec)         #    1.001 CPUs utilized          
+            10,200      context-switches          #    0.003 K/sec                  
+               146      cpu-migrations            #    0.000 K/sec                  
+         1,957,175      page-faults               #    0.496 K/sec                  
+14,177,067,871,404      cycles                    #    3.591 GHz                    
+ 4,991,462,680,898      stalled-cycles-frontend   #   35.21% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,560,493,503      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,146,124,272      branches                  #  212.294 M/sec                  
+       843,388,621      branch-misses             #    0.10% of all branches        
+
+    3945.355438393 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3948097.703789      task-clock (msec)         #    1.001 CPUs utilized          
+            10,091      context-switches          #    0.003 K/sec                  
+               190      cpu-migrations            #    0.000 K/sec                  
+         1,957,811      page-faults               #    0.496 K/sec                  
+14,176,165,685,424      cycles                    #    3.591 GHz                    
+ 4,990,784,018,362      stalled-cycles-frontend   #   35.21% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,556,364,332      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,144,761,136      branches                  #  212.291 M/sec                  
+       844,040,685      branch-misses             #    0.10% of all branches        
+
+    3945.392877148 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3948936.790253      task-clock (msec)         #    1.001 CPUs utilized          
+            10,455      context-switches          #    0.003 K/sec                  
+               130      cpu-migrations            #    0.000 K/sec                  
+         1,957,466      page-faults               #    0.496 K/sec                  
+14,178,282,849,860      cycles                    #    3.590 GHz                    
+ 4,992,663,870,510      stalled-cycles-frontend   #   35.21% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,536,355,082      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,133,892,188      branches                  #  212.243 M/sec                  
+       843,404,130      branch-misses             #    0.10% of all branches        
+
+    3946.241113533 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3949206.605387      task-clock (msec)         #    1.001 CPUs utilized          
+            10,213      context-switches          #    0.003 K/sec                  
+               181      cpu-migrations            #    0.000 K/sec                  
+         1,957,175      page-faults               #    0.496 K/sec                  
+14,179,208,816,349      cycles                    #    3.590 GHz                    
+ 4,993,422,187,930      stalled-cycles-frontend   #   35.22% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,570,893,313      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,148,261,266      branches                  #  212.232 M/sec                  
+       843,850,389      branch-misses             #    0.10% of all branches        
+
+    3946.517440968 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3949572.734964      task-clock (msec)         #    1.001 CPUs utilized          
+             9,978      context-switches          #    0.003 K/sec                  
+               153      cpu-migrations            #    0.000 K/sec                  
+         1,957,247      page-faults               #    0.496 K/sec                  
+14,179,554,305,297      cycles                    #    3.590 GHz                    
+ 4,993,735,376,730      stalled-cycles-frontend   #   35.22% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,581,153,897      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,152,420,247      branches                  #  212.213 M/sec                  
+       844,434,450      branch-misses             #    0.10% of all branches        
+
+    3946.883040559 seconds time elapsed
+
+
+ Performance counter stats for 'radical-synapse-sample -cat matmult -f 17660856028 -s 833':
+
+    3947814.797665      task-clock (msec)         #    1.001 CPUs utilized          
+             9,978      context-switches          #    0.003 K/sec                  
+               160      cpu-migrations            #    0.000 K/sec                  
+         1,956,760      page-faults               #    0.496 K/sec                  
+14,178,185,285,225      cycles                    #    3.591 GHz                    
+ 4,992,365,623,614      stalled-cycles-frontend   #   35.21% frontend cycles idle   
+   <not supported>      stalled-cycles-backend   
+35,841,589,675,027      instructions              #    2.53  insns per cycle        
+                                                  #    0.14  stalled cycles per insn
+   838,157,691,455      branches                  #  212.309 M/sec                  
+       845,761,777      branch-misses             #    0.10% of all branches        
+
+    3945.144550053 seconds time elapsed
+
