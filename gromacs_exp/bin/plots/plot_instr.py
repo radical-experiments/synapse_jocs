@@ -13,21 +13,21 @@ c_matmult_data = list()
 asm_matmult_err_data = list()
 c_matmult_err_data = list()
 
-with open('avg_cycles__'+resource+'_asm_matmult.csv') as f:
+with open('avg_instr_act__'+resource+'_asm_matmult.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         fmt_row = [int(row[0])]
         fmt_row.extend(map(float, row[1:]))
         asm_matmult_data.append(fmt_row)
 
-with open('avg_cycles__'+resource+'_c_matmult.csv') as f:
+with open('avg_instr_act__'+resource+'_c_matmult.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         fmt_row = [int(row[0])]
         fmt_row.extend(map(float, row[1:]))
         c_matmult_data.append(fmt_row)
 
-with open('avg_cycles__'+resource+'_gromacs.csv') as f:
+with open('avg_instr_act__'+resource+'_gromacs.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         fmt_row = [int(row[0])]
@@ -42,14 +42,14 @@ gromacs_data.sort(key=lambda x: x[0])
 z_gromacs_data = map(list, zip(*gromacs_data))
 
 
-with open('avg_cycles_err__'+resource+'_asm_matmult.csv') as f:
+with open('avg_instr_act_err__'+resource+'_asm_matmult.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         fmt_row = [int(row[0])]
         fmt_row.extend(map(float, row[1:]))
         asm_matmult_err_data.append(fmt_row)
 
-with open('avg_cycles_err__'+resource+'_c_matmult.csv') as f:
+with open('avg_instr_act_err__'+resource+'_c_matmult.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         fmt_row = [int(row[0])]
@@ -64,7 +64,7 @@ z_c_matmult_err_data = map(list, zip(*c_matmult_err_data))
 plt.close('all')
 plt.rcParams["figure.figsize"] = [12, 5]
 fig, ax = plt.subplots()
-ax.set_title("Average Number of Cycles, for each simulation timesteps", fontsize=20)
+ax.set_title("Average Number of Instructions, for each simulation timesteps", fontsize=20)
 
 x = z_gromacs_data[0]
 actual_line = ax.errorbar(x, z_gromacs_data[1], yerr=z_gromacs_data[3], label='Actual',color='blue')
@@ -81,7 +81,7 @@ ax.xaxis.set_tick_params(labelsize=14)
 ax.yaxis.set_tick_params(labelsize=14)
 
 ax.set_xlabel('Number of Timesteps', fontsize=14)
-ax.set_ylabel('Number of cycles', fontsize=14)
+ax.set_ylabel('Number of Instructions', fontsize=14)
 
 ax2 = ax.twinx()
 
@@ -92,11 +92,11 @@ ax2.set_ylim(0, 100)
 ax2.yaxis.set_tick_params(labelsize=14)
 ax2.set_ylabel('Percent Error from Actual Runs (%)', fontsize=14)
 
-cycles_lines, cycles_labels = ax.get_legend_handles_labels()
-cycles_err_lines, cycles_err_labels = ax2.get_legend_handles_labels()
-ax.legend(cycles_lines + cycles_err_lines, cycles_labels + cycles_err_labels, loc='upper left')
+instr_act_lines, instr_act_labels = ax.get_legend_handles_labels()
+instr_act_err_lines, instr_act_err_labels = ax2.get_legend_handles_labels()
+ax.legend(instr_act_lines + instr_act_err_lines, instr_act_labels + instr_act_err_labels, loc='upper left')
 
 #plt.show()
 
-plt.savefig('avg_cycles_'+resource+'.pdf', bbox_inches='tight', dpi=144)
-plt.savefig('avg_cycles_'+resource+'.png', bbox_inches='tight', dpi=144)
+plt.savefig('avg_instr_act_'+resource+'.pdf', bbox_inches='tight', dpi=144)
+plt.savefig('avg_instr_act_'+resource+'.png', bbox_inches='tight', dpi=144)

@@ -5,7 +5,7 @@ from pprint import pprint
 
 input_path = sys.argv[1]
 path_parts = [path_part for path_part in input_path.split('/') if path_part]
-resource = path_parts[-1]
+resource = '_'.join(path_parts[-2:])
 
 instr_dict = dict()
 instr_rate_dict = dict()
