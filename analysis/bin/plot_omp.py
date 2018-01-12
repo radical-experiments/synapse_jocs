@@ -64,7 +64,7 @@ def main():
 
     plt.xlabel('# threads or processes [byte]')
     plt.ylabel('T_x')
-    plt.yscale('log')
+  # plt.yscale('log')
     plt.title ('T_x over threads / processes')
     plt.legend(labels, ncol=2, loc='upper left', bbox_to_anchor=(0,1.13))
     plt.savefig('%s/figures/omp.png' % PWD)
