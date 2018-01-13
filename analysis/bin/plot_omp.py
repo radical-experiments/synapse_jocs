@@ -41,7 +41,13 @@ def main():
   # pprint.pprint(data)
 
     formats = {'omp' : '--o',
-               'mpi' : '-*' }
+               'mpi' : '-o' }
+
+    font = {'family' : 'normal',
+          # 'weight' : 'bold',
+            'size'   : 22}
+    plt.rc('font', **font)
+
 
     labels = list()
     plt.figure(figsize=(20,10))
@@ -58,15 +64,17 @@ def main():
                 x.append(cnt)
                 y.append(tmp.mean())
                 e.append(tmp.std())
-            plt.errorbar(x, y, yerr=e) #, fmt=formats[mode], capthick=20)
+            plt.errorbar(x, y, yerr=e, linewidth=3, markersize=15, 
+                         fmt=formats[mode], capthick=20)
           # print
           # print label
 
     plt.xlabel('# threads or processes [byte]')
     plt.ylabel('T_x')
   # plt.yscale('log')
-    plt.title ('T_x over threads / processes')
-    plt.legend(labels, ncol=2, loc='upper left', bbox_to_anchor=(0,1.13))
+ #  plt.label(loc = 'upper right')
+    plt.title ('Execution time over threads / processes')
+    plt.legend(labels, ncol=2, loc='upper right')
     plt.savefig('%s/figures/omp.png' % PWD)
     plt.show()
 

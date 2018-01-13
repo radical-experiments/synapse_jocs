@@ -46,10 +46,15 @@ def main():
 
   # pprint.pprint(data)
 
-    formats = {'w0' : '--o',
-               'r0' : '-*',
-               'r1' : '-^',
-               'r2' : '-v'}
+    formats = {'w0' : '-o',
+               'r0' : '--o',
+               'r1' : ':s',
+               'r2' : '-.'}
+
+    font = {'family' : 'normal',
+          # 'weight' : 'bold',
+            'size'   : 22}
+    plt.rc('font', **font)
 
     # --------------------------------------------------------------------------
     def add_to_plt(plt, fmt, datasets):
@@ -61,7 +66,8 @@ def main():
             x.append(buf)
             y.append(tmp.mean())
             e.append(tmp.std())
-        plt.errorbar(x, y, yerr=e, fmt=fmt, capthick=20)
+        plt.errorbar(x, y, yerr=e, fmt=fmt, linewidth=3, capthick=20,
+                markersize=10)
     # --------------------------------------------------------------------------
     if 'hosts' in plot_by:
         for host in hosts:
@@ -84,7 +90,7 @@ def main():
             plt.yscale('log')
             plt.ylim([0.1, 1000])
             plt.title ('%s: T_x over buf sizes and file systems' % host)
-            plt.legend(labels, ncol=label_cols, loc='upper left', bbox_to_anchor=(0,1.13))
+            plt.legend(labels, ncol=label_cols, loc='upper right')
             plt.savefig('%s/figures/io_host_%s.png' % (PWD, host))
             print 'saved %s/figures/io_host_%s.png' % (PWD, host)
 
@@ -110,7 +116,7 @@ def main():
             plt.yscale('log')
             plt.ylim([0.1, 1000])
             plt.title ('%s: T_x over buf sizes and file systems' % fs)
-            plt.legend(labels, ncol=label_cols, loc='upper left', bbox_to_anchor=(0,1.13))
+            plt.legend(labels, ncol=label_cols, loc='upper right')
             plt.savefig('%s/figures/io_fs_%s.png' % (PWD, fs))
             print 'saved %s/figures/io_fs_%s.png' % (PWD, fs)
 
@@ -133,7 +139,8 @@ def main():
                         x.append(buf)
                         y.append(tmp.mean())
                         e.append(tmp.std())
-                    plt.errorbar(x, y, yerr=e, fmt=formats[mode], capthick=20)
+                    plt.errorbar(x, y, yerr=e, linewidth=3, markersize=15, 
+                                 fmt=formats[mode], capthick=20)
                   # print
                   # print label
      
@@ -142,7 +149,7 @@ def main():
         plt.yscale('log')
         plt.ylim([0.1, 1000])
         plt.title ('T_x over buf sizes and file systems')
-        plt.legend(labels, ncol=5, loc='upper left', bbox_to_anchor=(0,1.13))
+        plt.legend(labels, ncol=5, loc='upper right')
         plt.savefig('%s/figures/io.png' % PWD)
         print 'saved %s/figures/io.png' % PWD
 
